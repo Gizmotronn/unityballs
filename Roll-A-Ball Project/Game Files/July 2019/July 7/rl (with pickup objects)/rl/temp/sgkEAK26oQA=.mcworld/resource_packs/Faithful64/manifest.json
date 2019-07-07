@@ -1,0 +1,17 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Four times the resolution, four times the fun!",
+      "name" : "Faithful 64x64",
+      "uuid" : "cd971434-d0dd-11e6-bf26-cec0c932ce01",
+      "version" : [ 1, 2, 8 ]
+   },
+   "modules" : [
+      {
+         "description" : "Four times the resolution, four times the fun!",
+         "type" : "resources",
+         "uuid" : "cd9714fc-d0dd-11e6-bf26-cec0c932ce01",
+         "version" : [ 1, 2, 8 ]
+      }
+   ]
+}

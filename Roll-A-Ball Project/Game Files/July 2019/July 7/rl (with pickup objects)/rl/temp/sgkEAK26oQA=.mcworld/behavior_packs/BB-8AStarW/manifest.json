@@ -1,0 +1,19 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Add-On by Gona",
+      "name" : "BB-8: A Star Wars Add-On Behavior Pack",
+      "platform_locked" : false,
+      "uuid" : "4ac6249c-aa5d-3d46-b85f-def28e4cf254",
+      "version" : [ 0, 0, 1 ]
+   },
+   "min_engine_version" : [ 0, 0, 1, 1, 2, 5 ],
+   "modules" : [
+      {
+         "description" : "Add-On by Gona",
+         "type" : "data",
+         "uuid" : "68b41b88-e9d1-11e6-bf0e-fe55135034f3",
+         "version" : [ 0, 0, 1 ]
+      }
+   ]
+}

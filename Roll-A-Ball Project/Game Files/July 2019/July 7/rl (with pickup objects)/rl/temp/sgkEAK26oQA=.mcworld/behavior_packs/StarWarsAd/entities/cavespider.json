@@ -1,0 +1,153 @@
+{
+  "minecraft:entity": {
+    "format_version": 0.1,
+
+    "component_groups": {
+
+      "minecraft:r4d2_angry": {
+        "minecraft:angry": {
+          "duration": 25,
+          "broadcastAnger": true,
+          "broadcastRange": 20,
+          "calm_event": {
+            "event": "minecraft:on_calm",
+            "target": "self"
+          }
+        },
+        "minecraft:on_target_acquired": {
+        }
+      },
+
+      "minecraft:r4d2_wild": {
+        "minecraft:behavior.nearest_attackable_target": {
+        "priority": 4,
+        "attack_interval": 3,
+        "entity_types": [
+          {
+            "filters": { 
+  			      "other_with_families": [ "player", "resistance", "villager" ],
+             "other_without_families": [ "empire" ]
+	   	 },
+            "max_dist": 19
+          }
+        ],
+        "must_see": true
+        },
+        "minecraft:on_target_acquired": {
+          "event": "minecraft:become_angry",
+          "target": "self"
+        }
+      }
+    },
+
+    "components": {
+	  "minecraft:identifier": {
+        "id": "minecraft:cavespider"
+      },
+	    "minecraft:scale": {
+        "value":1.73
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "monster", "empire", "r4-d2" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.55,
+        "height": 0.77
+      },
+	    "minecraft:loot": {
+        "table": "loot_tables/entities/astromechanic.json"
+      },
+      "minecraft:health": {
+        "value": 30,
+        "max": 30
+      },
+      "minecraft:movement": {
+        "value": 0.20
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 8,
+        "speed_multiplier": 1.0
+      },
+	    "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+	    "minecraft:shooter": {
+        "type": "Arrow",
+        "def": "minecraft:arrow.skeleton"
+      },
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval_min": 0.5,
+        "attack_interval_max": 1.2,
+        "attack_radius": 20
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 2,
+        "entity_types": {
+          "filters": {
+            "other_without_families": [
+              "empire"
+            ]
+          }
+        }
+      }
+    },
+
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 1,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:r4d2_wild"
+              ]
+            }
+          }
+        ]
+      },
+
+      "minecraft:become_angry": {
+        "remove": {
+          "component_groups": [
+            "minecraft:r4d2_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:r4d2_angry"
+          ]
+        }
+      },
+      "minecraft:on_calm": {
+        "remove": {
+          "component_groups": [
+            "minecraft:r4d2_angry"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:r4d2_wild"
+          ]
+        }
+      }
+    }
+  }
+}

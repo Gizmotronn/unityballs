@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "MinecraftPE-Mods.com",
+        "name": "French Gothic",
+        "uuid": "71b3f6c2-2c43-11e7-93ae-92361f002671",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "MinecraftPE-Mods.com",
+            "type": "resources",
+            "uuid": "71b3fa32-2c43-11e7-93ae-92361f002671",
+            "version": [0, 0, 1]
+        }
+    ]
+}

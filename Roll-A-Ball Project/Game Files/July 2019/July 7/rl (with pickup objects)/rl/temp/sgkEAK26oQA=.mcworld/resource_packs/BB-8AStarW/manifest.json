@@ -1,0 +1,19 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "Add-On by Gona",
+      "name" : "BB-8: A Star Wars Add-On Resource Pack",
+      "platform_locked" : false,
+      "uuid" : "9cc93111-c5ac-3fa1-80c8-69397d6d680b",
+      "version" : [ 0, 0, 1 ]
+   },
+   "min_engine_version" : [ 0, 0, 1, 1, 2, 5 ],
+   "modules" : [
+      {
+         "description" : "Add-On by Gona",
+         "type" : "resources",
+         "uuid" : "68b41930-e9d1-11e6-bf0e-fe55135034f3",
+         "version" : [ 0, 0, 1 ]
+      }
+   ]
+}

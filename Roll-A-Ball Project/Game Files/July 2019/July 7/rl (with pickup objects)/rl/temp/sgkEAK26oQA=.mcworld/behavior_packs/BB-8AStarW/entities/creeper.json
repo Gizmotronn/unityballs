@@ -1,0 +1,263 @@
+{
+  "minecraft:entity": {
+    "format_version": 0.1,
+
+    "component_groups": {
+
+      "minecraft:bb8_angry": {
+        "minecraft:angry": {
+          "duration": 25,
+          "broadcastAnger": true,
+          "broadcastRange": 20,
+          "calm_event": {
+            "event": "minecraft:on_calm",
+            "target": "self"
+          }
+        },
+        "minecraft:on_target_acquired": {
+        }
+      },
+
+      "minecraft:bb8_wild": {
+        "minecraft:tameable": {
+          "probability": 0.33,
+          "tameItems": "redstone",
+          "tame_event": {
+            "event": "minecraft:on_tame",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 5,
+          "entity_types": [
+            {
+              "filters": { "other_with_families": "player" },
+              "max_dist": 10,
+              "walk_speed_multiplier": 0.7,
+              "sprint_speed_multiplier": 1.1
+            }
+          ]
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 4,
+          "attack_interval": 3,
+          "entity_types": [
+            {
+              "filters": { "other_with_families": [ "monster" ] },
+              "max_dist": 16
+            }
+          ],
+          "must_see": true
+        },
+        "minecraft:on_target_acquired": {
+          "event": "minecraft:become_angry",
+          "target": "self"
+        }
+      },
+
+      "minecraft:bb8_tame": {
+        "minecraft:is_tamed": {
+        },
+        "minecraft:health": {
+          "value": 50,
+          "max": 50
+        },
+		"minecraft:inventory": {
+          "container_type": "minecart_hopper",
+          "inventory_size": 5,
+          "can_be_siphoned_from": true
+        },
+		"minecraft:item_hopper": {
+        },
+        "minecraft:behavior.follow_owner": {
+          "priority": 6,
+          "speed_multiplier": 1.0,
+          "start_distance": 10,
+          "stop_distance": 2
+        },
+        "minecraft:behavior.owner_hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.owner_hurt_target": {
+          "priority": 2
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 5,
+          "attack_interval": 10,
+          "entity_types": [
+            {
+              "filters": { "other_with_families": "monster" },
+              "max_dist": 16
+            }
+          ],
+          "must_see": true
+        },
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0,
+          "on_leash": {
+            "event": "minecraft:on_leash",
+            "target": "self"
+          },
+          "on_unleash": {
+            "event": "minecraft:on_unleash",
+            "target": "self"
+          }
+        }
+      },
+
+      "minecraft:bb8_leashed": {
+        "minecraft:behavior.move_towards_restriction": {
+          "priority": 2,
+          "speed_multiplier": 1.0
+        }
+      }
+    },
+
+
+    "components": {
+	  "minecraft:identifier": {
+        "id": "minecraft:creeper"
+      },
+	  "minecraft:behavior.tempt": {
+        "priority": 1,
+        "speed": 0.50,
+        "within_radius": 13,
+        "items": [ "redstone" ]
+      },
+	  "minecraft:scale": {
+          "value":1.2
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "bb8" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 0.8
+      },
+	  "minecraft:loot": {
+        "table": "loot_tables/entities/creeper.json"
+      },
+      "minecraft:health": {
+        "value": 25,
+        "max": 25
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:healable": {
+        "items": [
+          "redstone"
+        ]
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 8,
+        "speed_multiplier": 1.0
+      },
+	  "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+	  "minecraft:shooter": {
+        "type": "Arrow",
+        "def": "minecraft:arrow.skeleton"
+      },
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval_min": 0.5,
+        "attack_interval_max": 2.0,
+        "attack_radius": 16
+      },
+	  "minecraft:hurt_when_wet": {
+        "value": true
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3
+      }
+    },
+
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 1,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:bb8_wild"
+              ]
+            }
+          }
+        ]
+      },
+
+      "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bb8_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:bb8_tame"
+          ]
+        }
+      },
+      "minecraft:become_angry": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bb8_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:bb8_angry"
+          ]
+        }
+      },
+      "minecraft:on_calm": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bb8_angry"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:bb8_wild"
+          ]
+        }
+      },
+
+      "minecraft:on_leash": {
+        "add": {
+          "component_groups": [
+            "minecraft:bb8_leashed"
+          ]
+        }
+      },
+      "minecraft:on_unleash": {
+        "remove": {
+          "component_groups": [
+            "minecraft:bb8_leashed"
+          ]
+        }
+      }
+    }
+  }
+}
