@@ -11,16 +11,8 @@ These features are required to make sure the game runs as smooth as possible.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # unityballs
 My repo for the Unity "Roll-A-Ball" project.
+
+# social
+I'd recommend following ACORD on Instagram - http://instagram.com/acordrobotics to check out what we're doing
