@@ -12,7 +12,13 @@ These features are required to make sure the game runs as smooth as possible.
 
 
 # unityballs
-My repo for the Unity "Roll-A-Ball" project.
+My repo for the Unity "Roll-A-Ball" project. 
+
+# What's been done
+* Scoring system
+* Objects to pick up, or avoid
+* Player object
+* Most of the scripting for Phase 1 (RollABall) w/ comments
 
 # social
 I'd recommend following ACORD on Instagram - http://instagram.com/acordrobotics to check out what we're doing
