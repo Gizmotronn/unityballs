@@ -46,3 +46,6 @@ July 17: I added a script to the asteroids so that they will remove a point from
 July 18: I downloaded a sprite from the Unity Asset store
 July 19: I resized the playboard, the pick up objects and the asteroids because the spaceship sprite is much bigger than the player
 July 23: I added a new move function to the spaceship, which previously could not move. I also added a script so that the scoring would work for the spaceship, which is a separate gameObject to the player (which is disabled).
+
+### Type of software license
+Public domain - Asteroid Dodgers will be open-source, which means that it will be free and anyone can access and edit the code, like wordpress.org. I want people to be able to add to my game.
