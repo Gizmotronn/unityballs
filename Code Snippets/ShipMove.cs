@@ -58,7 +58,7 @@ public class ShipMove : MonoBehaviour
                 if (score >=5)
         {
             WinText.text = "You Win!";
-            Application.LoadLevel("Level2");
+            Application.LoadLevel("Level2Home");
         }
     }
 
