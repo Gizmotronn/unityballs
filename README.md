@@ -9,6 +9,11 @@ Following Specs recommended:
 These features are required to make sure the game runs as smooth as possible.
 
 
+# Levels
+* Level 1 - Artifacts - collect at least 5 artifacts while avoid being hit by any asteroids
+* Level 2 - Go Home - Fly across the stars back to your base, avoiding black holes and more asteroids
+
+More levels coming soon!
 
 
 # unityballs
