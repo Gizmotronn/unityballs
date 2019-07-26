@@ -133,6 +133,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: BigAsteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -203,16 +213,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: BigAsteroid
-      objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_UseGravity
@@ -227,6 +227,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,11 +302,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -322,6 +322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -391,11 +396,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (7)
       objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -584,6 +584,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -653,16 +663,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
       objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -843,7 +843,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b3c698c586f10343924a8abdbe45c9d, type: 2}
+  - {fileID: 2100000, guid: bd79feca03b792440be952aaabef08f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -872,6 +872,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518778446}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &561759646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561759648}
+  - component: {fileID: 561759647}
+  m_Layer: 0
+  m_Name: Stars Small_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &561759647
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561759646}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: efe6ce32a6a4408489775c70e5d32f11, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 40.96, y: 40.96}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &561759648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561759646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.280319, y: -3.148414e-17, z: 14.1791935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &570565115
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +1051,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1041,21 +1136,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
-      objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_UseGravity
@@ -1081,6 +1161,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1151,11 +1236,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1176,6 +1256,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: BigAsteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1246,16 +1336,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: BigAsteroid
-      objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_UseGravity
@@ -1270,6 +1350,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1339,11 +1424,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (5)
       objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -1456,6 +1536,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1525,11 +1610,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (2)
       objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -1612,6 +1692,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1682,16 +1772,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
-      objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_UseGravity
@@ -1706,6 +1786,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: BigAsteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1776,16 +1866,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: BigAsteroid
-      objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_UseGravity
@@ -1800,6 +1880,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1869,21 +1964,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
       objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -2083,6 +2163,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2153,11 +2238,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2184,6 +2264,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2253,16 +2343,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
       objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -2368,7 +2448,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b3c698c586f10343924a8abdbe45c9d, type: 2}
+  - {fileID: 2100000, guid: bd79feca03b792440be952aaabef08f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2418,6 +2498,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2487,16 +2577,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
       objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -2711,6 +2791,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2781,16 +2871,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
-      objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_UseGravity
@@ -2805,6 +2885,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2875,11 +2960,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2900,6 +2980,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2970,11 +3055,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2988,6 +3068,86 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1774586540}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1802447683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1802447685}
+  - component: {fileID: 1802447684}
+  m_Layer: 0
+  m_Name: Stars-Big_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1802447684
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802447683}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c6944f9f15bd0ca4087bcdf033f0e162, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 20.48, y: 20.48}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1802447685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802447683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.966017, y: 2.5056338e-17, z: -11.284371}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1825902244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2995,6 +3155,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3064,16 +3234,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
       objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -3174,6 +3334,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228740951}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Asteroid (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3243,21 +3418,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Asteroid (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_TagString
-      value: Asteroid
       objectReference: {fileID: 0}
     - target: {fileID: 8295669748223623274, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
@@ -3515,6 +3675,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862776436}
     m_Modifications:
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_Name
+      value: Pick Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 995171520885372493, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3584,16 +3754,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_Name
-      value: Pick Up
-      objectReference: {fileID: 0}
-    - target: {fileID: 995171520885372481, guid: bbcd832ea70758947942587279d2d903,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 995171520885372495, guid: bbcd832ea70758947942587279d2d903,
         type: 3}
