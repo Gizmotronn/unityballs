@@ -1,17 +1,18 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class ShipMove : MonoBehaviour
 {
     public Text ScoreText;
     public Text WinText;
+    public Text HullText;
 
     private Rigidbody rb;
     private int score;
+    private int hull;
 
     private void Start()
     {
@@ -19,6 +20,8 @@ public class ShipMove : MonoBehaviour
         score = 0;
         SetScoreText();
         WinText.text = "";
+        hull = 10;
+        SetHullText();
     }
 
     void FixedUpdate()
@@ -46,8 +49,8 @@ public class ShipMove : MonoBehaviour
         if (other.gameObject.CompareTag("Asteroid"))
         {
             other.gameObject.SetActive(false);
-            score = score - 1;
-            SetScoreText();
+            hull = hull - 2;
+            SetHullText();
         }
     }
 
@@ -61,5 +64,14 @@ public class ShipMove : MonoBehaviour
             Application.LoadLevel("Level2Home");
         }
     }
-
+    void SetHullText ()
+    {
+        HullText.text = "Strength: " +
+            hull.ToString();
+                if (hull <=0)
+        {
+            WinText.text = "You Crashed!";
+            Application.LoadLevel("MainMenu");
+        }
+    }
 }
