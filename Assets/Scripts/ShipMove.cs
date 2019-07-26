@@ -35,6 +35,11 @@ public class ShipMove : MonoBehaviour
         vel.z = v;
         rb.velocity = vel;
 
+        if (Input.GetKeyDown("z"))
+        {
+           transform.Rotate(0, 270, 0);
+        }
+
     }
 
     void OnTriggerEnter(Collider other)
