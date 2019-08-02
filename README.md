@@ -67,3 +67,5 @@ Public domain - Asteroid Dodgers will be open-source, which means that it will b
 
 ### Tracetables
 
+# Sprites
+* [Astronaut](https://assetstore.unity.com/packages/3d/characters/humanoids/stylized-astronaut-114298)
