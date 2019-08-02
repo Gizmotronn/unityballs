@@ -69,3 +69,18 @@ Public domain - Asteroid Dodgers will be open-source, which means that it will b
 
 # Sprites
 * [Astronaut](https://assetstore.unity.com/packages/3d/characters/humanoids/stylized-astronaut-114298)
+
+## Space station
+* [1](https://assetstore.unity.com/packages/3d/environments/sci-fi/space-station-31047)
+
+## Planets
+* [1](https://assetstore.unity.com/packages/3d/environments/sci-fi/planets-26903)
+* [2](https://assetstore.unity.com/packages/3d/environments/sci-fi/planets-60740)
+* [3](https://assetstore.unity.com/packages/3d/environments/sci-fi/planet-earth-free-23399)
+
+## Star Wars
+https://clara.io/library?query=starwars&gameCheck=true
+
+## Other sprite resources
+* https://www.beffio.com/
+* https://nasa3d.arc.nasa.gov/
