@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 3440
     height: 1307
-  m_MinSize: {x: 677, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 130
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
     y: 0
     width: 3440
     height: 1357
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 2688
     height: 1307
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 52
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 2688
     height: 714
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 53
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StarSparrow/Textures
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/StarSparrow/Textures
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Git\Personal Projects\ad\Asteroid Dodgers\rl
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a340000
-    m_LastClickedID: 13354
-    m_ExpandedIDs: 00000000ba330000bc3300002a340000303400004a40000000ca9a3b
+    m_SelectedIDs: fe340000
+    m_LastClickedID: 13566
+    m_ExpandedIDs: 00000000483400004a3400004c3400004e3400005034000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba330000bc330000
+    m_ExpandedIDs: 00000000483400004a3400004c3400004e34000050340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -409,18 +409,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: LevelSelect1
-      m_OriginalName: LevelSelect1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 22656
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -499,23 +499,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5068ffff
-      m_LastClickedID: -38832
-      m_ExpandedIDs: 5068ffffd068fffffa68fffffc69ffff326affff0e6dffff226dffff7a6dffff9a6effffc26efffff26fffffce72ffffdc72ffff3c73ffffac74ffffda74ffff4a76ffff7276ffff9e77ffff767affff807affff1e86ffff2686ffffda86ffff12a6ffff3aa6ffff66a7ffff3eaaffff48aaffffdeadfffff2b0ffff1cb1ffff48b2ffff20b5ffff2ab5fffff0b5ffff1ab6ffff46b7ffff1ebaffff28baffff00c0ffff48c0ffffcec8ffff74d9ffff68e1fffff8e9ffffc0eaffffcaeaffff9ceeffffe2f0ffff04f1ffff60f1ffff8af1ffff90f1ffffc6f1ffff96f4ffff3ef5ffff68f5ffff2ef6ffff64f6ffff48f9ffff20faffffca490000f6490000804c00009c4c0000c84c0000265f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0ec3ffff36c3ffff38c4ffff3cc4ffff6ec4ffff44c7ffff4ec7ffff30d3ffff58d3ffff58d4ffff5cd4ffff8ed4ffff64d7ffff70d7ffff72d8ffffe4d8ffffaadcffff10e0ffffaee0ffffd8e0ffffd8e1ffffdce1ffff0ee2ffffe6e4fffff4e4ffff02e9ffff38e9ffff32ecffff5cecffff5eecffff90ecffff5cefffff66efffffd8efffff00f0fffffef0ffff30f1ffff08f4ffff12f4ffffa0f8ffff4efbfffff2330000fc330000d43d0000f43d0000063e00002e3e0000fe45000026460000784a0000844c00008a4c0000884f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Button
-        m_OriginalName: Button
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -38832
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -597,9 +597,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.3483105, y: -0.014065158, z: 0.0052261213, w: 0.9372592}
   m_Size:
-    m_Target: 75.09477
+    m_Target: 171.5606
     speed: 2
-    m_Value: 75.09477
+    m_Value: 171.5606
   m_Ortho:
     m_Target: 0
     speed: 2
