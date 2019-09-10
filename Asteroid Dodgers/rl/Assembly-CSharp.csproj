@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Asteroids Pack\Assets\Scripts\RandomRotator.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\LevelSelector.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\OptionsMenu.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
